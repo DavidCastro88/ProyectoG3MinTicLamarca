@@ -1,4 +1,6 @@
 PROYECTO GRUPO 3 LAMARCA
+
+
 Problema:
 Comprar hoy en día es una actividad que demanda mucho tiempo, en las grandes urbes donde se concentran los negocios del sector comercial y de servicios se vuelve un caos desplazarse debido a que el tráfico es cada vez más difícil, se incentiva el uso de medios masivos de transporte donde en pandemia se inclumplen los protocolos de bioseguridad al no tener un adecuado distanciamiento. Adicional a esto los locales que tienen implementados protocolos de bioseguridad deben atenderse un número limitado de personas, además la compra debe ser registrada por un cajero/a lo que hace que según el local la persona se demora más o menos tiempo en la adquisición de un bien o servicio. 
 
