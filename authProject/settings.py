@@ -27,6 +27,7 @@ SECRET_KEY = 'django-insecure-k1_cglrd4x(wpajbkn!m7q^&om%@ti1=0_8%f1zdh7r+2om3sl
 DEBUG = True
 
 ALLOWED_HOSTS = []
+CORS_ALLOW_ALL_ORIGINS = True
 
 
 # Application definition
@@ -40,6 +41,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'rest_framework',
     "authApp",
+    "corsheaders",
 ]
 SIMPLE_JWT = {
     'ACCESS_TOKEN_LIFETIME': timedelta(minutes=5),
@@ -60,6 +62,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    "corsheaders.middleware.CorsMiddleware",
 ]
 REST_FRAMEWORK = {
     'DEFAULT_PERMISSION_CLASSES': (
