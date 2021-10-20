@@ -1,2 +1,5 @@
 from .userCreateView import UserCreateView
 from .userDetailView import UserDetailView
+from .productsView import ProductoListCreateView, ProductoRetrieveUpdateDestroy
+from .shoppinghistoryView import HistorialListCreateView, HistorialRetrieveUpdateDestroy
+from .tokensView import TokenListCreateView,TokenRetrieveUpdateDestroy

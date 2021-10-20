@@ -21,4 +21,10 @@ urlpatterns = [
     path('refresh/', TokenRefreshView.as_view()),
     path('user/', views.UserCreateView.as_view()),
     path('user/<int:pk>/', views.UserDetailView.as_view()),
+    path("producto/",views.ProductoListCreateView.as_view()),
+    path('producto/<int:pk>', views.ProductoRetrieveUpdateDestroy.as_view()),
+    path("shoppinghistory/",views.HistorialListCreateView.as_view()),
+    path('shoppinghistory/<int:pk>', views.HistorialRetrieveUpdateDestroy.as_view()),
+    path("tokens/",views.TokenListCreateView.as_view()),
+    path('tokens/<int:pk>', views.TokenRetrieveUpdateDestroy.as_view()),
 ]
