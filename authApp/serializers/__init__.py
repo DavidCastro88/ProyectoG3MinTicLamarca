@@ -2,4 +2,4 @@ from .accountSerializer import AccountSerializer
 from .userSerializer import UserSerializer
 from .productsSerializer import ProductoSerializer
 from .shoppinghistorySerializer import HistorialdeComprasSerializer
-from .tokensSerializer import tokensSerializer
+from .tokensSerializer import tokenSerializer

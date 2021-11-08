@@ -7,4 +7,4 @@ class HistorialdeCompras(models.Model):
     id=models.ForeignKey(User,on_delete=models.CASCADE)
     Valor = models.FloatField(null=False, blank=False)  
     Estado = models.CharField(max_length=50, null=False, blank=False) 
-    FechadeCompra = models.DateField(auto_now_add=False, auto_now=False, blank=True)
+    FechadeCompra = models.DateTimeField(auto_now_add=True)
